@@ -12,4 +12,4 @@ class Robot:
     def attack(self,dinosaur):
         dinosaur.health -= self.active_weapon.attack_power
         print(f"The {self.name} attacks {dinosaur.name}, health is now {dinosaur.health} ")
-        
+        print("")

@@ -7,5 +7,5 @@ class Dinosaur:
     def attack (self,robot):
         robot.health -= self.attack_power
         print(f"{self.name} attacked {robot.name},robot health it is now {robot.health}")
-
+        print("")
         
